@@ -1,0 +1,26 @@
+#root {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100dvh;
+}
+
+
+/* 404 Page */
+
+.page-404 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(100dvh - 80.8px - 80px);
+
+  & h1 {
+    font-size: 7rem;
+  }
+
+  & p a {
+    color: #000;
+    text-decoration: underline !important;
+    text-underline-offset: 3px
+  }
+}
